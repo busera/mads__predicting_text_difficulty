@@ -1,0 +1,24 @@
+name: text_difficulty
+channels:
+  - conda-forge
+dependencies:
+  - python 3.11
+  - pandas
+  - scikit-learn
+  - altair
+  - matplotlib
+  - seaborn
+  - jupyterlab
+# - textstat
+  - nltk
+  - watermark
+  - icecream
+  - tqdm
+#  - xgboost
+#  - catboost
+#  - yellowbrick
+  - fastparquet
+  - pip:
+#    -r requirements_pip.txt
+#    - fasttext
+#    - fasttext-langdetect
